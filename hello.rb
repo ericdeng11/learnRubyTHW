@@ -15,3 +15,27 @@ puts #{range}
 puts my_array.values_at(0)
 puts my_array[0..2]
 puts my_array.fetch(12, "not found")
+
+
+class What
+      def initialize(val)
+          @val = val
+      end
+      def print
+          puts @val
+      end
+      def val
+      return  @val
+end
+      def val=(val)
+          @val = val
+      end
+end
+
+
+x = What.new(10)
+x.print
+y = x.val
+puts y
+x.val = 10001
+puts x.val
