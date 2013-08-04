@@ -30,6 +30,7 @@ end
       def val=(val)
           @val = val
       end
+      attr_accessor :val
 end
 
 
