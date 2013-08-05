@@ -1,3 +1,29 @@
+array = Array.new
+array.push 1
+array.push 2
+array << 3 << 4 << 5 << 6
+for num in array 
+ print num  
+end
+
+array.each {|num| print num }
+array.each { |whynot| print whynot, " " }
+array.each {|n| print "#{n}" + "\n"  }
+
+string = Array.new
+string.push "this"
+string.push "is"
+string.push "a"
+string.push "mix"
+string.push 5
+for s in string
+ print s  
+ print "\n"
+end
+
+puts "cow" + " " + "boys"
+
+
 puts "what's your name?"
 name = gets()
 puts name.to_s
