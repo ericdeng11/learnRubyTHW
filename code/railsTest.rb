@@ -32,3 +32,8 @@ if x > 0 and y > 0
 else 
   puts "not all positives"
 end
+
+class Person
+      attr_accessor :age, :name
+end
+
