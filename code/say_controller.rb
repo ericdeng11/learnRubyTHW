@@ -6,5 +6,7 @@ class SayController < ApplicationController
   end
 
   def goodbye
+     @test = 100
+
   end
 end
