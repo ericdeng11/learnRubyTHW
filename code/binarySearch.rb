@@ -21,4 +21,4 @@ puts binary_search(my_array, 0, x, 5)
 puts binary_search(my_array, 0 , x, 0)
 puts binary_search(my_array, 0, my_array.length - 1, 3)
 puts binary_search(arr, 0, arr.length - 1 , -7)
-puts binary_search(arr, 0, arr.length - 1, 100)
+puts binary_search(arr, 0, arr.length - 1, 100 ) == 1
