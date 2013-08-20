@@ -78,3 +78,10 @@ large = 1000000000000000000
 large1 = 5000000000000000000000000
 puts result = large + large1
 
+largeString = "whattttttttttttttttttttttttttttttt"
+arrayString = largeString.split(",")
+arrayString.each {|t| print t+"," }
+len = arrayString.length - 1
+for ii in 0..len
+    print arrayString[ii]+","
+end
