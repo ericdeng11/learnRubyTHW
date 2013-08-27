@@ -7,6 +7,7 @@ class SayController < ApplicationController
 
   def goodbye
      @test = 100
-
+     @user = User.all
+     @test_user = User.find(1)
   end
 end
